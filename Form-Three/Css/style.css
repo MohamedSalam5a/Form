@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Genreal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+#main {
+    background-image: url(../image/background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-form {
+    width: 360px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.11);
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    padding: 60px 40px;
+    box-shadow: 1px 4px 28px 0px rgb(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    position: relative;
+}
+
+.content-form .icon-form {
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.content-form .icon-form img {
+    width: 100%;
+}
+
+.content-form h1 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.content-form .box-user {
+    margin-top: 15px;
+}
+
+.content-form .box-user input {
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px white solid;
+    height: 40px;
+    color: white;
+}
+
+
+.content-form .box-user label {
+    color: white
+}
+
+.content-form .btn-login {
+    width: 100%;
+    background: linear-gradient(to right, #000000, #444444, #888888, #CCCCCC, #FFFFFF);
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+    padding: 8px 8px;
+}
+
+.content-form p.or  {
+    text-align: center;
+    position: relative;
+    color: white;
+    padding: 10px;
+
+}
+
+.content-form  p.or::after {
+    content: "";
+    width: 110px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+.content-form  p.or::before {
+    content: "";
+    width: 110px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.content-form .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content-form .social .btn-social img {
+    width: 135px;
+    border-radius: 1px solid;
+    border-radius: 10px;
+}
+
+.content-form .social .btn-social img.fc{
+    background-color: #1f89d4;
+} 
+
+.content-form .social .btn-social img.go{
+    background-color: #fb5859;
+}
+
+.content-form p.Register {
+    text-align: center;
+    margin-top: 15px;
+    font-size:15px ;
+    color: white;
+}
+.content-form p.Register a{
+    text-decoration: none;
+    color: #387aff;
+    font-weight: bold;
+
+}
+.content-form p.Register a:hover{
+    text-decoration: underline;
+}
