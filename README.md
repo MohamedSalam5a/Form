@@ -17,5 +17,5 @@ The purpose of these tasks is to practice and improve form design skills.
 ## 🛠️ Skills Learned
 - Structuring forms with **HTML**
 - Styling inputs, labels, and buttons with **CSS**
-- Practicing layout and responsiveness
+- Practicing layout and responsive
 
